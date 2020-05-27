@@ -8,81 +8,120 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rosie</title>
+    <title>Authnic|Rich in flavor!</title>
 </head>
 <body>
-    <header>
-        <div class="row no-gutters">
-            <a class="col-md-4 logo" href="index.html"></a>
-            <div class="col-md-8">
-                <div class="row no-gutters bg-color-name-title">
-                    <div class="col heading">
-                        <h1 class="name">Rosie Odenkirk</h1>
-                        <h2 class="title"> Full Stack Developer</h2>
-                    </div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col">
-                        <ul id="nav" class="list-inline menucontainer">
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
-                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
-                                <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+<nav class="navbar navbar-dark navbar-expand-sm">
+        <a href="index.html" class="navbar-brand" ><h2 id="logo">Authnic</h2></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto font-color-navbar">
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Starter</a>
+                            <a class="dropdown-item" href="#">Main Course</a>
+                            <a class="dropdown-item" href="#">Dessert</a>
+                        </div>
+                </li>
+                <li class="nav-item mr-2"><a class="nav-link" href="catering.html">Catering</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Request Quote</a></li>
+            </ul>
         </div>
-    </header>
-    <section class="container-fluid">
-        <div class="row bg-color-contact">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
-                <h5 class="uppercase text-center">Let's work together</h5>
-                <div class="center-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+        <div class="d-none d-md-block">
+             <a href="contact.html" class="btn btn--cta btn--red">Request Quote</a>
+        </div>
+    </nav>
+    <div class="container-wrapper ">
+        <div class="container features-container content-container">
+            <section class="container-fluid ">
+                <div class="row">
+                    <form id="form-details col-12 col-lg-6">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputcname">Company Name</label>
+                                <input type="cname" class="form-control" id="inputcname">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" required>
                             </div>
                         </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputfullname">Full Name</label>
+                                <input type="fullname" class="form-control" id="inputfullname" required>
+                            </div>
+                            <div class="form-group col-md-3 ">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                                </div>
+                            <div class="form-group col-md-3">
+                                <label for="phoneno">Phone No</label>
+                                <input type="number" min="0" class="form-control" id="phone no" placeholder="12345678910" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="inputtype">Type of Catering</label>
+                                <input type="type" class="form-control" id="inputtype">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputnumber">No of Persons</label>
+                                <input type="number" class="form-control" id="inputnumber">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputdate">Date of Catering</label>
+                                <input type="datetime" class="form-control" id="inputdate">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="message">Message</label>
+                                <textarea rows="5" name="message" id="message" class="form-control"  ></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Send</button>
                     </form>
-                </div>
-            </div>
+                    
+                </section>
+            </div>  
         </div>
-    </section>
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-               <h5 class="uppercase general-sub">About</h5>
-               <p class="inline-block">
-                   Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
-               </p>
-            </div>
-            <div class="col-sm-4">
-               <h5 class="uppercase general-sub">Download</h5>
-               <p class="inline-block">
-                   Need a printable version of my CV? Download it here.
-               <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
-                   <i class="fa fa-download" aria-hidden="true"></i>
-                   <span class="sr-only">Download link.</span>
-               </a>
-               </p>
-            </div>
-            <div class="col-sm-4">
-               <h5 class="uppercase general-sub">Social</h5>
-               <ul class="list-inline social-links">
+<footer class="container-fluid">
+    <div id="footer-details" class="row">
+        <div class="col-sm-4">
+            <h3 class="uppercase general-sub">We're open!</h3>
+            <p > Mon - Sat : 12PM - 9PM</p>
+        </div>
+        <div class="col-sm-4">
+            <h3 class="uppercase general-sub">Hungry?</h3>
+            <p>Give us a call!</p>
+            <p>Telephone: 012 345 678</p>
+        </div>
+        <div class="col-sm-4">
+            <h3 class="uppercase general-sub">Let's get social!</h3>
+                <ul class="list-inline social-links">
                    <li class="list-inline-item">
                        <a target="_blank" href="#" >
                           <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -111,10 +150,7 @@
                    </li>
                </ul>
             </div>
-
-       </div>
-
-        
-    </footer>
-</body>
+     </div>     
+</footer>
+</body>                  
 </html>
