@@ -291,8 +291,20 @@ margin-left: 30px;
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0px;
+    column-gap: 2px;
+    display:table;
 }
+.album{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+
+/*---------------------------------------------catering*/
+
+/*---------------------------------------------contact*/
+
 
 #form-details {
     background-color: rgba(0, 238, 255, 0.39);
@@ -322,6 +334,8 @@ margin-left: 30px;
     padding-left: 350px;
 }
 
+/*---------------------------------------------contact*/
+
  /*--------------------------------------------Mediaquery*/
 
 @media(min-width:992px){
@@ -331,5 +345,10 @@ margin-left: 30px;
     margin:0 auto;
     max-width:50%;
 }  
+
+@media screen and (max-width: 500px) {
+  .album {
+    width: 100%;
+  }
 
 /*--------------------------------------------Mediaquery*/
