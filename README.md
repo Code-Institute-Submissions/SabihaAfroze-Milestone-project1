@@ -53,5 +53,7 @@ Clone this repo to your local machine using  https://github.com/SabihaAfroze/Mil
 
 7. https://www.gitpod.io/
 
+8. https://slack.com/
+
 
 
