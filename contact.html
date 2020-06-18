@@ -37,14 +37,14 @@
         </div>
     </nav>
     <div class="container-wrapper ">
-        <div class="container features-container content-container">
-            <section class="container-fluid ">
+        <div class="container quotes-container">
+            <div class="container-fluid ">
                 <div class="row">
-                    <form id="form-details" class="col-12 col-md-6 col-lg-8" >
+                    <form  class="form-details col-12 col-md-6 col-lg-8" >
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputcname">Company Name</label>
-                                <input type="cname" class="form-control" id="inputcname">
+                                <input type="text" class="form-control" id="inputcname">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputEmail">Email</label>
@@ -53,28 +53,39 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputfullname">Full Name</label>
-                                <input type="fullname" class="form-control" id="inputfullname" required>
+                                <label for="inputfname">Full Name</label>
+                                <input type="text" class="form-control" id="inputfname" >
                             </div>
                             <div class="form-group col-md-3 ">
                                 <label for="inputAddress">Address</label>
                                 <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
                                 </div>
                             <div class="form-group col-md-3">
-                                <label for="phoneno">Phone No</label>
-                                <input type="number" min="0" class="form-control" id="phone no" placeholder="12345678910" required>
+                                <label for="phone-no">Phone No</label>
+                                <input type="number" min="0" class="form-control" id="phone-no" placeholder="12345678910" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="inputCity">City</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <input type="text" class="form-control" id="inputCity" required>
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputState">State</label>
+                                <label for="inputState">Province</label>
                                 <select id="inputState" class="form-control">
                                 <option selected>Choose...</option>
-                                <option>...</option>
+                                <option> Noord-Holland</option>
+                                <option>Zuid-Holland</option>
+                                <option>Zeeland</option>
+                                <option>Noord-Brabant</option>
+                                <option>Utrecht</option>
+                                <option>Flevoland</option>
+                                <option>Friesland</option>
+                                <option>Groningen</option>
+                                <option>Drenthe</option>
+                                <option>Overijssel</option>
+                                <option>Gelderland</option>
+                                <option>Limburg</option>
                                 </select>
                             </div>
                             <div class="form-group col-md-4">
@@ -84,16 +95,16 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="inputtype">Type of Catering</label>
-                                <input type="type" class="form-control" id="inputtype">
+                                <label for="inputtext">Type of Catering</label>
+                                <input type="text" class="form-control" id="inputtext">
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="inputnumber">No of Persons</label>
-                                <input type="number" class="form-control" id="inputnumber">
+                                <input type="number" min="1" class="form-control" id="inputnumber">
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="inputdate">Date of Catering</label>
-                                <input type="datetime" class="form-control" id="inputdate">
+                                <input type="text" class="form-control" id="inputdate" required>
                             </div>
                         </div>
                         <div class="form-row">
@@ -105,10 +116,10 @@
                         <button type="submit" class="btn btn-danger">Send</button>
                     </form>
                     <div class="contact-img  col-12 col-md-6 col-lg-4 d-none d-lg-block " >
-                        <a href=tel:012345678><img src="assets/images/contact.gif" alt="contactus" ></a>
+                        <a href=tel:012345678><img src="assets/images/contact.gif" alt="contactus" style="width:300px;height:400px;padding-left:60px;padding-top:100px;" ></a>
                     </div>
                 </div>            
-            </section>          
+            </div>          
         </div>
     </div>
 
