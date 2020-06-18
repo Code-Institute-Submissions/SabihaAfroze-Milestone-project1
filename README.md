@@ -79,7 +79,7 @@ This project has included the use of HTML & CSS programming languages.
 * FontAwesome - Icons in the feature and footer section for social media links coming from this resource
 
 # Testing
-All information about the testing procedures I conducted can be found here in a separate [testing.md file](tesing.md)
+All information about the testing procedures I conducted can be found here in a separate [testing.md file](testing.md)
 # Deployment
 I developed this project in [GitPod IDE](https://gitpod.io/workspaces/), where I would commit to Git, and then push to GitHub via using the terminal in GitPod. I deployed this [Github repository](https://github.com/SabihaAfroze/Milestone-project1) to GitHub Pages via the following process:
 
