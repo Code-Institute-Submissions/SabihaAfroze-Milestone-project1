@@ -320,27 +320,24 @@ margin-left: 30px;
 
 
 #form-details {
-    background-color: rgba(0, 238, 255, 0.39);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    background-color: rgba(52, 81, 245, 0.322);
+    
     position: relative;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+   
     text-align: center;
 }
 
-.contact-details{
+.contact-img{
     margin-right: 0;
-    padding-left:70px;
+    float:right;
+    background-color: red;
+
+   
 }
 
 .contact-img img{
     float:right;
-    width:700px;
+    width:600px;
     height:relative;
     margin-right:0;
     padding-top:100px;
@@ -348,6 +345,10 @@ margin-left: 30px;
 }
 
 /*---------------------------------------------contact*/
+
+.dropdown-menu{
+    background-color: #edf040;
+}
 
  /*--------------------------------------------Mediaquery*/
 
