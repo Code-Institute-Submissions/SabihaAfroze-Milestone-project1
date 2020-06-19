@@ -13,9 +13,9 @@ To initially test the website I used the following validators:
 2.  [W3C CSS Validation Service](https://validator.w3.org/#validate_by_input) for CSS I inserted the code into the validator via direct input. No errors were were found upon final check.
 
 # Manual Testing
-Tests taken on Desktop & also mobile devices
+Tests taken on Desktop & also mobile devices although some colors diifer from desktop to mobile.
 
-All steps on desktop were repeated in browsers: Firefox, Chrome and Internet explorer.
+All steps on desktop were repeated in browsers: Firefox, Chrome and Internet explorer. In internet explorer the backgroung color I have used for quotes and other pages seems very light.
 
 Furher Testing
 Asked fellow students, friends and family to look at the site on their devices and give feedback if they encountered any issues.

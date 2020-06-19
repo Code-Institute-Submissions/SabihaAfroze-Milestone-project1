@@ -39,7 +39,11 @@ In the Netherlands, there are very few good catering services for indian cuisine
 # Design Choices
 ## Overall Inspiration:
 [This blog post](https://blog.hubspot.com/marketing/best-website-designs-list) inspired a number of my style choices while creating the website.
-
+## Wireframes
+I did not use any tool like Balsamiq in order to create my wireframe because I never used it before and I tried to learn but it cost me a lot of time for this reason initially I have made a structure of my website by pen and paper. I prodcued some snapshot of that wireframe images of the idea that I drew on my paper for desktop,mobile and tablet version. The reason that this wireframe is vey concise is that my initial thoughts were that the design of the webpage would be more concise than how then end product of my project looks like.
+1.  [Wireframe for desktop version](assets/images/wfdesktop.jpg)
+2.  [Wireframe for mobile device](assets/images/wfmobile.jpg)
+3.  [Wireframe for tab](assets/images/wftab.jpg)
 # Features
 ## Existing Features
 ### 1.  Home Page
